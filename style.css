@@ -327,3 +327,28 @@ h2 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+/** Login Page **/
+
+.login_nav{
+    height: 55px;
+    width: 100%;
+    background-color: #4568dd;
+}
+
+.login_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.login_div{
+    height: 550px;
+    width: 60dvw;
+    background-color: white;
+}
+
+.login_imgdiv{
+    background-image: url(images/login image.png);
+}
