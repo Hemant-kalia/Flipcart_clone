@@ -344,11 +344,62 @@ h2 {
 }
 
 .login_div{
+    display: flex;
     height: 550px;
-    width: 60dvw;
+    width: 70dvw;
     background-color: white;
 }
 
 .login_imgdiv{
-    background-image: url(images/login image.png);
+    background-image: url(images/login\ image.png);
+    background-size: cover;
+    height: 550px;
+    width: 40%;
+    background-repeat: no-repeat;
 }
+
+.login_formdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    height: 490px;
+    width: 60%;
+    background-color: white;
+}
+
+.feilds{
+    display: flex;
+    flex-direction: column;
+}
+
+.login_email{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+.login_btn{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(245, 114, 66);
+    border-style: none;
+    border-radius: 2px;
+    font-size: 16px;
+    color: white;
+}
+
+.login_btn:hover{
+    cursor: pointer;
+}
+
+.signup_link{
+    color: #2A55E5;
+    font-family: sans-serif;
+    padding-left: 7rem;
+}
+
+.signup_link:hover{
+    cursor: pointer;
+}
+
