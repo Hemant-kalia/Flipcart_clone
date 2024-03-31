@@ -1,5 +1,5 @@
 # Flipcart clone
 <br>
-Author = Hemant
+Author : Hemant
 <br>
 My first frontend project.
