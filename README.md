@@ -1,4 +1,4 @@
-# Flipcart clone
+# Flipkart clone
 <br>
 Author : Hemant
 <br>
